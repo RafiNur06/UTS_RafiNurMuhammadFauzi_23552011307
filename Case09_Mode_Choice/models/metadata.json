@@ -1,0 +1,37 @@
+{
+    "model_name": "Random Forest",
+    "dataset": "kasus09_mode_choice.csv",
+    "target_name": "target",
+    "feature_names": [
+        "hinc",
+        "psize",
+        "ttme_mode_1",
+        "ttme_mode_2",
+        "ttme_mode_3",
+        "ttme_mode_4",
+        "invc_mode_1",
+        "invc_mode_2",
+        "invc_mode_3",
+        "invc_mode_4",
+        "invt_mode_1",
+        "invt_mode_2",
+        "invt_mode_3",
+        "invt_mode_4",
+        "gc_mode_1",
+        "gc_mode_2",
+        "gc_mode_3",
+        "gc_mode_4"
+    ],
+    "class_labels": [
+        1,
+        2,
+        3,
+        4
+    ],
+    "metrics": {
+        "accuracy": 0.9047619047619048,
+        "precision_macro": 0.9271978021978022,
+        "recall_macro": 0.9144813519813519,
+        "f1_macro": 0.9173076923076924
+    }
+}
